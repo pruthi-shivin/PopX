@@ -1,16 +1,63 @@
-# React + Vite
+# PopX UI Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React JS implementation of the PopX mobile application UI based on the provided Adobe XD design.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- Vite
+- JavaScript
+- Plain CSS
+- React Router DOM
+- React Icons
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Landing Page
+- Login Page
+- Register Page
+- Account Settings Page
+- Responsive layout
+- Component-based architecture
+- Clean folder structure
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/pruthi-shivin/PopX
+```
+
+```bash
+cd Popx
+
+```
+
+```bash
+npm install
+
+```
+
+```bash
+npm run dev
+
+```
+
+## Folder Structure
+
+```
+src
+ ├── assets
+ ├── components
+ ├── pages
+ ├── styles
+ ├── App.jsx
+ └── main.jsx
+```
+
+
+## Live Demo
+
+```bash
+https://pop-x-psi-one.vercel.app/
+
+```
