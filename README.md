@@ -1,4 +1,4 @@
-# PopX UI Clone
+# PopX
 
 A React JS implementation of the PopX mobile application UI based on the provided Adobe XD design.
 
