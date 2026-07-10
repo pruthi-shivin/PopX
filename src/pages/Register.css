@@ -1,0 +1,54 @@
+.register {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px 30px;
+}
+
+.register-title {
+
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36px;
+    color: var(--text);
+    margin-bottom: 35px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    flex: 1;
+}
+
+.agency-title {
+    font-size: 13px;
+    margin-bottom: 14px;
+    color: var(--text);
+}
+
+.agency-title span {
+    color: var(--danger);
+}
+
+.agency-options {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.agency-options label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: var(--text);
+    cursor: pointer;
+}
+
+.agency-options input {
+    width: 22px;
+    height: 22px;
+    accent-color: var(--primary);
+    cursor: pointer;
+}

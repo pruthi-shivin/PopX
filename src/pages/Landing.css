@@ -1,0 +1,35 @@
+.landing {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+}
+
+.landing-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 20px 30px;
+}
+
+.landing-title {
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--text);
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+
+.landing-description {
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--text-light);
+    margin-bottom: 30px;
+}
+
+.landing-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

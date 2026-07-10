@@ -1,0 +1,30 @@
+.login{
+    padding:40px 20px;
+}
+
+.login-title{
+    font-size:28px;
+    font-weight:500;
+    line-height:36px;
+    color:var(--text);
+    margin-bottom:14px;
+}
+
+.login-description{
+    font-size:18px;
+    line-height:26px;
+    color:var(--text-light);
+    margin-bottom:32px;
+}
+
+.login-form{
+    display:flex;
+    flex-direction:column;
+    gap:23px;
+}
+
+.login-form .btn{
+    margin-top:4px;
+    background:#CBCBCB;
+    color:white;
+}

@@ -1,0 +1,19 @@
+.mobile-layout {
+    width: 100%;
+    max-width: 480px;
+    height:100vh;
+    margin: 0 auto;
+    background: var(--background);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 18px rgba(0,0,0,.08);
+}
+
+@media (max-width: 768px){
+
+    .mobile-layout{
+        max-width:100%;
+        box-shadow:none;
+    }
+
+}
